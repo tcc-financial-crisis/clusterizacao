@@ -1,0 +1,16 @@
+Column,Description,Source
+iso3,ISO-3 Country Code,Standard
+year,Year of observation,Standard
+crisis_next_12m,TARGET: 1 if ANY crisis starts next year,HBS (Calculated)
+banking_crisis_next_12m,Specific Target: 1 if Banking Crisis starts next year,HBS (Calculated)
+currency_crisis_next_12m,Specific Target: 1 if Currency Crisis starts next year,HBS (Calculated)
+debt_crisis_next_12m,Specific Target: 1 if Debt Crisis starts next year,HBS (Calculated)
+crisis_any,Current State: 1 if any crisis is active,HBS
+banking_crisis,Current State: 1 if Banking Crisis is active,HBS
+currency_crisis,Current State: 1 if Currency Crisis is active,HBS
+debt_crisis,Current State: 1 if Debt Crisis is active,HBS
+inflation,"Inflation, consumer prices (annual %)",World Bank WDI
+gdp_growth,Real GDP growth (annual %),World Bank WDI
+unemployment,"Unemployment, total (% of labor force)",World Bank WDI
+fed_funds_rate,US Federal Funds Effective Rate (Annual Mean),FRED (USA)
+real_interest_rate_10y,US 10-Year Real Interest Rate (Annual Mean),FRED (USA)
